@@ -45,6 +45,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   background-color: #f5f6fa;
+  /* background-color:black; */
   padding: 20px;
 }
 
@@ -71,6 +72,26 @@ body {
 
 .app__left {
   flex: 0.9;
+}
+
+.app__right{
+  display: flex;
+  flex-direction: column;
+}
+
+.app__right .muiCardContent-root{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.app__graph{
+  flex-grow: 1;
+}
+
+.app__graphTitle{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .app__information > h3 {
